@@ -2,7 +2,7 @@
 playing game and getting score
 
 ---------------
-###lang version
+### lang version
 java 17\
 spring 2.7.6
 
