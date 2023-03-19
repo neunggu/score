@@ -44,5 +44,4 @@ public class DatabaseConfig {
         dataSource.setMaxLifetime(30000);
         return dataSource;
     }
-
 }

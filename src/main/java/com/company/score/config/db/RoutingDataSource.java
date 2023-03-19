@@ -8,7 +8,7 @@ public class RoutingDataSource extends AbstractRoutingDataSource {
 
     @Override
     protected Object determineCurrentLookupKey() {
-        Object dbKey = null;
+        Object dbKey;
         if(RequestContextHolder .getRequestAttributes() == null
             || RequestContextHolder.getRequestAttributes()
                 .getAttribute("db_key", RequestAttributes.SCOPE_SESSION) == null) {

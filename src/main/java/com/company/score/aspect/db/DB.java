@@ -29,6 +29,4 @@ public class DB{
         }
         return result;
     }
-
-
 }
